@@ -6,14 +6,14 @@ public class Account {
     private int balance;
     
   // 생성자 작성
-    public Account(String accountNo) {
+    public Account() {
+    }
+    
+    public Account(String accountNo, int balance) {
     	this.accountNo = accountNo;
+    	this.balance = balance;
     }
-    
-    public Account(int balance) {
-    	this.balance = balance; 
-    }
-    
+
 ///////////////////////////////////////////////////////////////////////////////    
     
     // getter, setter
@@ -33,24 +33,20 @@ public class Account {
   ///////////////////////////////////////////////////////////////////////////  
     
     //필요한 메소드 작성
-	public void deposit(int in) {
-		if(money) {
-			System.out.println(money + );
+	public void deposit() {
+		System.out.println();
 		}
 		
-	public void withdraw(int out) {
+	public void withdraw() {
 		
 	}
 	
-	public void shwoBanlance(int sum) {
+	public void shwoBanlance() {
 		
 	}
 	
-	public void run(boolean on) {
-		if()
+	public void run() {
 		
 	}
 		
-		
-	}
 }
