@@ -34,7 +34,7 @@ public class Account {
     
     //필요한 메소드 작성
 	public void deposit() {
-		System.out.println();
+		System.out.printf("%d", balance );
 		}
 		
 	public void withdraw() {
