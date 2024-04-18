@@ -11,7 +11,6 @@ public class AccountApp {
         int money;
         
         Account account = new Account("312-89562-123456");
-        System.out.println(account + 계좌가 개설되었습니다.);
         
         while(run){
             System.out.println("");
@@ -21,7 +20,7 @@ public class AccountApp {
             System.out.print("선택>");
             
             int menuNo = sc.nextInt();
-            
+
             switch(menuNo){
             
                 case 1:
@@ -50,9 +49,9 @@ public class AccountApp {
                     System.out.println("다시입력해주세요");
                     break;
                     
-            }//switch 
+            }
             
-        }//while
+        }
         sc.close();
     }
 
