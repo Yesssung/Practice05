@@ -30,7 +30,7 @@ public class BookShop {
         // 코드작성
         for(int i = 0; i < 10; i++) {
         	books[i].books = newbooks;
-        	if(newboo) {
+        	if() {
         		books[i].rent();
         	}
         }
